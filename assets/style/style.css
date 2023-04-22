@@ -295,12 +295,48 @@ body {
 
 .history {
     background-color: #133D8D;
-    padding: 120px 0 45px 0;
+    padding: 120px 0 60px 0;
+}
+.history__inner {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
 .history__info {
     font-family: 'HelveticaNeueCyr-Light';
     font-size: 36px;
+    max-width: 525px;
 }
 .history__info h1 {
     margin-bottom: 40px;
+}
+.history__info p {
+    font-size: 14px;
+    font-weight: 400;
+    margin-bottom: 15px;
+}
+.history__statistics {
+    max-width: 606px;
+    max-height: 376px;
+}
+.history__img {
+    margin-bottom: 25px;
+}
+.history__item {
+    margin-left: 30px;
+    padding-left: 20px;
+    position: relative;
+    font-size: 16px;
+    font-weight: 500;
+}
+.history__item::after {
+    content: "";
+    width: 8px;
+    height: 8px;
+    background-color: #fff;
+    display: block;
+    left: 0;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
 }
