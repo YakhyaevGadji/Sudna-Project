@@ -254,6 +254,10 @@ body {
     color: #133D8D;
     font-size: 18px;
     text-transform: uppercase;
+    text-decoration: none;
+}
+.new__btn:hover {
+    text-decoration: underline;
 }
 .new__list {
     background-image: url(../images/photo/newslider1.svg);
@@ -283,4 +287,20 @@ body {
     font-weight: 400;
     font-size: 14px;
     opacity: 0.75;
+}
+
+
+/*Hsitory*/
+
+
+.history {
+    background-color: #133D8D;
+    padding: 120px 0 45px 0;
+}
+.history__info {
+    font-family: 'HelveticaNeueCyr-Light';
+    font-size: 36px;
+}
+.history__info h1 {
+    margin-bottom: 40px;
 }
