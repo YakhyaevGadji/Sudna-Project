@@ -340,3 +340,37 @@ body {
     top: 50%;
     transform: translateY(-50%);
 }
+
+
+/*Publication*/
+
+
+.public {
+    margin: 150px 0 206px 0;
+}
+.public__list {
+    display: flex;
+    justify-content: space-between;
+}
+.public__item {
+    max-width: 306px;
+}
+.public__item p {
+    margin: 20px 0;
+    font-weight: 700;
+    font-size: 16px;
+    text-transform: uppercase;
+    line-height: 22px;
+    color: #333;
+}
+.publick__img {
+    margin-bottom: 30px;
+}
+.public__date {
+    color: #333;
+    opacity: 0.75;
+}
+
+.public__link:hover {
+    text-decoration: underline;
+}
