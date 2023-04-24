@@ -374,3 +374,126 @@ body {
 .public__link:hover {
     text-decoration: underline;
 }
+
+
+/*Projects*/
+
+
+.projects {
+    background: rgba(19, 61, 141, 0.5);
+    padding: 125px 0 150px 0;
+}
+.projects__title {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 80px;
+}
+.projects__slider {
+    display: flex;
+    align-items: center;
+}
+.projects__title h1 {
+    font-size: 36px;
+    font-weight: 400;
+    text-transform: uppercase;
+}
+.projects__slider h4 {
+    font-weight: 700;
+    font-size: 18px;
+}
+.projects__btn-left {
+    height: 60px;
+    width: 60px;
+    background-color: #133D8D;
+    border: none;
+    margin: 0 15px 0 40px;
+    cursor: pointer;
+}
+.projects__btn-left::after {
+    content: "";
+    width: 15px;
+    height: 15px;
+    border-top: 3px solid #fff;
+    border-left: 3px solid #fff;
+    display: block;
+    margin: 0 20px;
+    transform: rotate(-45deg);
+}
+.projects__btn-right {
+    height: 60px;
+    width: 60px;
+    background-color: #133D8D;
+    border: none;
+    cursor: pointer;
+}
+.projects__btn-right::after {
+    content: "";
+    width: 15px;
+    height: 15px;
+    border-top: 3px solid #fff;
+    border-left: 3px solid #fff;
+    display: block;
+    margin: 0 13px;
+    transform: rotate(135deg);
+}
+.projects__inner {
+    display: flex;
+}
+.project__image {
+    position: relative;
+}
+.projects__img-text {
+    max-width: 480px;
+    position: absolute;
+    bottom: 45px;
+    left: 45px;
+}
+.projects__img-text h1 {
+    font-weight: 700;
+    font-size: 24px;
+    text-transform: uppercase;
+    margin-bottom: 20px;
+}
+.projects__img-text p {
+    font-weight: 400;
+    font-size: 14px;
+}
+.project__block {
+    padding: 55px 35px 55px 60px;
+    background-color: #133D8D;
+    flex-direction: row;
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 590px;
+}
+.project__item {
+    max-width: 210px;
+    margin-right: 37px;
+    margin-bottom: 30px;
+}
+.project__item h1 {
+    font-size: 40px;
+    font-weight: 700;
+    margin-bottom: 10px;
+}
+.project__item h1 span {
+    font-size: 14px;
+    font-weight: 500;
+    margin-left: 15px;
+}
+.project__item p {
+    font-weight: 500;
+    font-size: 14px;
+}
+.project__btn {
+    font-weight: 700;
+    font-size: 16px;
+    padding: 10px 25px;
+    border: 3px solid #fff;
+    text-transform: uppercase;
+    height: 50px;
+    margin-top: 155px;
+    color: #fff;
+    text-decoration: none;
+}
