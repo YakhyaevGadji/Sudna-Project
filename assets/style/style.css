@@ -553,3 +553,41 @@ body {
     max-height: 410px;   
 }
 
+
+/*Footer*/
+
+
+.footer {
+    padding: 60px 0 70px 0;
+    background-color: #133D8D;
+}
+.footer__title {
+    margin-bottom: 40px;
+}
+.footer__img {
+    margin: 0 auto;
+}
+.footer__list {
+    display: flex;
+    justify-content: space-between;
+}
+.footer__item h1 {
+    font-weight: 700;
+    font-size: 16px;
+    text-transform: uppercase;
+    margin-bottom: 25px;
+}
+.footer__item p {
+    margin-bottom: 15px;
+}
+.footer__item--last  {
+    max-width: 306px;
+}
+.footer__item--last p {
+    text-align: right;
+    margin-bottom: 15px;
+}
+.footer__item--last h3 {
+    text-align: right;
+    text-transform: uppercase;
+}
